@@ -1,0 +1,71 @@
+﻿<Page
+    x:Class="todolist.EditTask"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:todolist"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <SplitView DisplayMode="CompactOverlay" CompactPaneLength="75">
+
+        <SplitView.Pane>
+            <StackPanel Background="Gray">
+                <Button x:Name="Back" FontFamily="Segoe MDL2 Assets" Content="&#xE72B;"
+                        Width="75" Height="75"
+                        Background="Transparent" Click="Back_OnClick">
+                    <ToolTipService.ToolTip>
+                        <ToolTip Content="Return Home"/>
+                    </ToolTipService.ToolTip>
+                </Button>
+                <Button x:Name="Delete" FontFamily="Segoe MDL2 Assets" Content="&#xE74D;"
+                        Width="75" Height="75"
+                        Background="Transparent" Click="Delete_Click">
+                    <ToolTipService.ToolTip>
+                        <ToolTip Content="Delete"/>
+                    </ToolTipService.ToolTip>
+                </Button>
+                <Button x:Name="Valid" FontFamily="Segoe MDL2 Assets" Content="&#xE8FB;"
+                        Width="75" Height="75"
+                        Background="Transparent" Click="Valid_Click">
+                    <ToolTipService.ToolTip>
+                        <ToolTip Content="Valid"/>
+                    </ToolTipService.ToolTip>
+                </Button>
+            </StackPanel>
+        </SplitView.Pane>
+
+        <SplitView.Content>
+            <ScrollViewer VerticalScrollBarVisibility="auto">
+                <Grid Background="White" BorderBrush="Black" BorderThickness="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.15*"></RowDefinition>
+                        <RowDefinition Height="0.85*"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Text="Edit this ToDo" TextAlignment="Center" HorizontalAlignment="Center"
+                          VerticalAlignment="Center" FontSize="30" Foreground="Black" FontWeight="ExtraBlack"/>
+
+                    <StackPanel Grid.Row="1" Margin="20">
+                        <TextBlock TextWrapping="Wrap" Text="Title" Foreground="Black"
+                               TextAlignment="Center" FontWeight="ExtraBlack" FontSize="20"/>
+                        <TextBox x:Name="Title" TextWrapping="Wrap"/>
+
+                        <TextBlock TextWrapping="Wrap" Text="Content" Foreground="Black"
+                               TextAlignment="Center" FontWeight="ExtraBlack" Margin="0, 10, 0, 0" FontSize="20"/>
+                        <TextBox x:Name="ContentContent" TextWrapping="Wrap"/>
+
+                        <TextBlock TextWrapping="Wrap" Text="Date" Foreground="Black"
+                               TextAlignment="Center" FontWeight="ExtraBlack" Margin="0, 10, 0, 0" FontSize="20"/>
+                        <CalendarDatePicker x:Name="Date" Foreground="White" HorizontalAlignment="Center"/>
+
+                        <TextBlock x:Name="Error" TextWrapping="Wrap" Foreground="Red" Visibility="Collapsed"
+                                   TextAlignment="Center" FontWeight="ExtraBlack" Margin="0, 10, 0, 0" FontSize="20"/>
+                    </StackPanel>
+                </Grid>
+            </ScrollViewer>
+        </SplitView.Content>
+
+    </SplitView>
+
+</Page>

@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="epicture.HomeImgur"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:epicture"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <CommandBar HorizontalAlignment="Left" VerticalAlignment="Bottom" >
+            <AppBarButton Icon="Home" Label="Home"  Click="GalleryHot_onClick" />
+            <AppBarButton Icon="Contact" Label="Your photos"  Click="GalleryUser_onClick" />
+            <AppBarButton Icon="Favorite" Label="Favorites" Click="GalleryFav_onClick" />
+            <AppBarButton Icon="Upload" Label="Upload"  Click="Upload_onClick" ClickMode="Release" />
+        </CommandBar>
+        <GridView x:Name="GridViewAlbum" Margin="0,53,0,34" SelectionChanged="GridViewAlbum_SelectionChanged">
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical" Margin="2">
+                        <Image Source="{Binding Photo}" Width="260" Height="260" Margin="2">
+                        </Image>
+                        <TextBlock Text="{Binding Name}"></TextBlock>
+                        <TextBlock Text="{Binding Description}"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+            <GridView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <ItemsWrapGrid ItemHeight="330" ItemWidth="320" Orientation="Horizontal" MaximumRowsOrColumns="6">
+                    </ItemsWrapGrid>
+                </ItemsPanelTemplate>
+            </GridView.ItemsPanel>
+            <Grid Height="100" Width="100"/>
+        </GridView>
+        <Button x:Name="buttonFav" Content="Add to Favorites" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="Favorite_onClick" Height="32" Width="140"/>
+        <TextBlock x:Name="textMessage" TextWrapping="Wrap" Margin="156,0,140,-1" TextAlignment="Center" RenderTransformOrigin="0.306,1" Height="35" VerticalAlignment="Top" />
+        <Button x:Name="buttonDelete" Content="Delete" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="Delete_onClick" Height="32" Width="140"/>
+        <Button x:Name="buttonSearch" Content="Search" HorizontalAlignment="Right" VerticalAlignment="Top" Click="Search_onClick"></Button>
+        <TextBox x:Name="searchBox" HorizontalAlignment="Right" TextWrapping="Wrap" TextAlignment="Center" PlaceholderText="Search on Imgur ..." VerticalAlignment="Top" Width="250" Height="35" Margin="0,0,66,0"/>
+    </Grid>
+    
+</Page>

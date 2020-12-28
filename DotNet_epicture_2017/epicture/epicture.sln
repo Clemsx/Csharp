@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "epicture", "epicture.csproj", "{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "epictureTest", "epictureTest\epictureTest.csproj", "{9BC49956-214F-47D3-B140-17AFFDB5F8F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Debug|ARM.Build.0 = Debug|ARM
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Debug|ARM.Deploy.0 = Debug|ARM
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Debug|x64.ActiveCfg = Debug|x64
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Debug|x64.Build.0 = Debug|x64
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Debug|x64.Deploy.0 = Debug|x64
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Debug|x86.ActiveCfg = Debug|x86
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Debug|x86.Build.0 = Debug|x86
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Debug|x86.Deploy.0 = Debug|x86
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Release|Any CPU.ActiveCfg = Release|x86
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Release|ARM.ActiveCfg = Release|ARM
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Release|ARM.Build.0 = Release|ARM
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Release|ARM.Deploy.0 = Release|ARM
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Release|x64.ActiveCfg = Release|x64
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Release|x64.Build.0 = Release|x64
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Release|x64.Deploy.0 = Release|x64
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Release|x86.ActiveCfg = Release|x86
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Release|x86.Build.0 = Release|x86
+		{C1BB6048-21F0-46DE-81AB-96AAC87D3CB9}.Release|x86.Deploy.0 = Release|x86
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Debug|ARM.ActiveCfg = Debug|ARM
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Debug|ARM.Build.0 = Debug|ARM
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Debug|ARM.Deploy.0 = Debug|ARM
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Debug|x64.ActiveCfg = Debug|x64
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Debug|x64.Build.0 = Debug|x64
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Debug|x64.Deploy.0 = Debug|x64
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Debug|x86.ActiveCfg = Debug|x86
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Debug|x86.Build.0 = Debug|x86
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Debug|x86.Deploy.0 = Debug|x86
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Release|Any CPU.ActiveCfg = Release|x86
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Release|ARM.ActiveCfg = Release|ARM
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Release|ARM.Build.0 = Release|ARM
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Release|ARM.Deploy.0 = Release|ARM
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Release|x64.ActiveCfg = Release|x64
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Release|x64.Build.0 = Release|x64
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Release|x64.Deploy.0 = Release|x64
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Release|x86.ActiveCfg = Release|x86
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Release|x86.Build.0 = Release|x86
+		{9BC49956-214F-47D3-B140-17AFFDB5F8F7}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F081B7DB-2DC7-4137-8CC5-75627E57D9A8}
+	EndGlobalSection
+EndGlobal

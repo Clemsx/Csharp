@@ -1,0 +1,12 @@
+D:\Epitech\DotNet\DotNet_epicture_2017\epicture\.vs\epicture\lut\0\i\epictureTest\Debug\epictureTest.csprojResolveAssemblyReference.cache
+D:\Epitech\DotNet\DotNet_epicture_2017\epicture\.vs\epicture\lut\0\i\epictureTest\Debug\epictureTest.csproj.CoreCompileInputs.cache
+D:\Epitech\DotNet\DotNet_epicture_2017\epicture\.vs\epicture\lut\0\b\epictureTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Epitech\DotNet\DotNet_epicture_2017\epicture\.vs\epicture\lut\0\b\epictureTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Epitech\DotNet\DotNet_epicture_2017\epicture\.vs\epicture\lut\0\b\epictureTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Epitech\DotNet\DotNet_epicture_2017\epicture\.vs\epicture\lut\0\b\epictureTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\Epitech\DotNet\DotNet_epicture_2017\epicture\.vs\epicture\lut\0\b\epictureTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\Epitech\DotNet\DotNet_epicture_2017\epicture\.vs\epicture\lut\0\b\epictureTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\Epitech\DotNet\DotNet_epicture_2017\epicture\.vs\epicture\lut\0\b\epictureTest\bin\Debug\epictureTest.dll
+D:\Epitech\DotNet\DotNet_epicture_2017\epicture\.vs\epicture\lut\0\b\epictureTest\bin\Debug\epictureTest.pdb
+D:\Epitech\DotNet\DotNet_epicture_2017\epicture\.vs\epicture\lut\0\i\epictureTest\Debug\epictureTest.dll
+D:\Epitech\DotNet\DotNet_epicture_2017\epicture\.vs\epicture\lut\0\i\epictureTest\Debug\epictureTest.pdb

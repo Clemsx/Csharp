@@ -1,0 +1,2 @@
+D:\Epitech\DotNet\DotNet_epicture_2017\epicture\epicture.csproj;x64
+D:\Epitech\DotNet\DotNet_epicture_2017\epicture\epictureTest\epictureTest.csproj;x64
